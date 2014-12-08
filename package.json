@@ -1,7 +1,7 @@
 {
   "name": "async-waiter",
-  "version": "0.1.0",
-  "description": "wait for multiple callbacks to finish",
+  "version": "0.1.1",
+  "description": "higher-level functions to simplify waiting for multiple concurrent async operations to finish",
   "main": "async-waiter.js",
   "scripts": {
     "test": "mocha",
