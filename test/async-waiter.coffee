@@ -22,6 +22,7 @@ describe 'async-waiter', ->
         done3()
         ok not called
         done2()
+        ok called
     , iferr done, ->
       called = true
       done null
