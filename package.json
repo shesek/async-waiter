@@ -1,0 +1,22 @@
+{
+  "name": "async-waiter",
+  "version": "0.1.0",
+  "description": "wait for multiple callbacks to finish",
+  "main": "async-waiter.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee -c async-waiter.coffee"
+  },
+  "repository": "https://github.com/shesek/async-waiter",
+  "keywords": [ "async", "waiter", "wait", "concurrent" ],
+  "author": "Nadav Ivgi",
+  "license": "MIT",
+  "homepage": "https://github.com/shesek/async-waiter",
+  "dependencies": {
+    "iferr": "^0.1.5"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "mocha": "^2.0.1"
+  }
+}
