@@ -61,3 +61,6 @@ describe 'async-waiter', ->
       eq ctx.foo, 'foo'
       eq ctx.bar, 'bar'
       done null
+
+  it 'calls the callback immediately if wait() is not used', (done) ->
+    waiter (->), done
